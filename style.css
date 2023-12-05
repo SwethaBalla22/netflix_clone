@@ -1,0 +1,338 @@
+*{
+    margin:0;
+    padding: 0;
+    border: box-border;
+    font-family: sans-serif;
+}
+.page1{
+    background-image: url("n1.jpg") ;
+    background-size: cover;
+  
+}
+.navbar{
+    height:44px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 15px 32px 24px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 65px;
+    width: 380px;
+    object-fit: cover;
+    margin-left: 100px;
+}
+.nav2{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.box2{
+    height: 30px;
+    width: 120px;
+    border: 0.85px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+}
+.lang{
+    color: white;
+    background-color: black;
+    border: none;
+}
+.signin{
+    height: 32px;
+    width: 75px;
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
+    background-color: rgba(255,0,0,0.9);
+    border-radius: 5px;
+
+}
+.a{
+    color: white;
+    text-decoration: none;
+}
+.signin:hover{
+    background-color: rgb(165, 5, 5)
+
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6); 
+    color: white;
+    height: 625px;
+    border-bottom: 8px solid rgba(52, 48, 48,0.8) ;
+}
+.hero1{
+    width: 1170px;
+    height: 305px;
+    text-align: center;
+}
+.h{
+     /* font-size: 60px;  */
+     font-size: 3.8rem; 
+    font-weight: bolder
+}
+.hero1 p{
+    margin-top: 16px;
+     /* font-size: 24px;  */
+     font-size:1.5rem; 
+    color: rgb(242, 239, 239);;
+}
+.hero h4{
+    /* font-size: 20px; */
+    font-size: 1.25rem;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    color: rgb(242, 239, 239);
+    font-weight: 400;
+}
+.button{
+    color: white;
+    background-color:  rgba(255,0,0,0.9);
+    height: 56px;
+    width: 202px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.email{
+    width: 355px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 1rem;
+    color: rgba(234, 233, 233, 0.981);
+    border: 0.75px solid rgba(234, 233, 233, 0.981);
+    background-color: rgba(0,0,0,0.2);
+    margin-right: 10px;
+    
+}
+.input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.page2{
+    height: 580px;
+    background-color: black;
+    border-bottom: 8px solid rgba(52, 48, 48,0.8) ;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    text-align:left;
+}
+.info{
+    color: white;
+    margin-left: 32px;
+    margin-top: 160px;
+}
+.info h2{
+    /* font-size: 48px; */
+    font-size: 3rem;
+    font-weight: 800;
+}
+.info p{
+    /* font-size: 24px; */
+    font-size: 1.5rem;
+    margin-top: 16px;
+    width: 585px;
+}
+.page2 .pic{
+    position: relative;
+}
+.video{
+    position: absolute;
+    top: 85px;
+    right:85px;
+   
+}
+.remote{
+    position: absolute;
+    right:105px;
+    top: 235px;
+    z-index: 1;
+}
+.page3{
+    height: 580px;
+    background-color: black;
+    border-bottom: 8px solid rgba(52, 48, 48,0.8) ;
+}
+.page3 .info h2{
+    height: 136px;
+    width: 585px;
+}
+.s1{
+    margin-top: 60px;
+}
+.strange{
+    width: 378px;
+    height: 95px;
+    background-color: black;
+    border: 0.75px solid rgba(234, 233, 233, 0.981);
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    top:-130px;
+    left:100px;
+}
+.things{
+    color: white; 
+}
+.Download{
+    color: #0071eb;
+    /* font-size: 14px; */
+    font-size: 0.88rem;
+    font-weight: 100;
+}
+.s2{
+    position: absolute;
+    padding: 10px;
+}
+
+.matter{
+    display: block;
+    position: absolute;
+    margin-left: 80px;
+    top:30px;
+}
+.icon{
+    width: 48px;
+    height: 60px;
+    color: white;
+    position: absolute;
+    right:20px;
+    top:40px;
+}
+.page4{
+    height: 580px;
+     background-color: black; 
+    border-bottom: 8px solid rgba(52, 48, 48,0.8) ;
+}
+.page4 .pic{
+    position: relative;
+}
+.video1{
+    position: absolute;
+    top: 35px;
+    right:95px;
+   
+}
+.mobile{
+    position: absolute;
+    z-index: 2;
+    top:160px;
+    right: 32px;
+}
+.volume{
+    position: absolute;
+    z-index: 1;
+    left:111px;
+    top:218px;
+}
+.volume1{
+    position: absolute;
+    z-index: 2;
+    left:50px;
+    top:230px;
+}
+.page5{
+    height: 580px;
+    background-color: black; 
+    border-bottom: 8px solid rgba(52, 48, 48,0.8) ;
+}
+.questions{
+    height: 800px;
+    background-color: black; 
+    border-bottom: 8px solid rgba(52, 48, 48,0.8) ;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.questions h2{
+    width: 1163px;
+    height: 68px;
+    color: #ffffff;
+    /* font-size: 48px; */
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top:  70px;
+    padding-left: 150px;
+    margin-bottom: 20px;
+    
+}
+.query{
+    display: block;
+    text-align: left;
+    width: 1180px;
+    height: 90px;
+    /* font-size: 24px; */
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding-left: 30px;
+    background-color: rgba(119, 116, 116, 0.4);
+    border: 5px solid black;
+    position: relative;
+    left: 160px;
+}
+.query i{
+    position: absolute;
+    right: 40px;
+}
+.questions h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.query:hover{
+    background-color: rgba(178, 176, 176, 0.4);
+}
+.foot2{
+    height: 420px;
+    background-color: black;
+    color: rgb(194, 193, 193);
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ ul a{
+    display: block;
+    color: rgb(194, 193, 193);
+    padding-bottom: 20px;
+}
+.call a{
+    color: rgb(194, 193, 193);
+    font-size: 14px;
+}
+.call{
+   margin-bottom: 30px;
+   padding-top: 55px;
+   padding-left: 200px;
+   font-size: 16px;
+}
+.lang1{
+   margin-left: 210px;
+   height: 30px;
+   width: 120px;
+   border: 0.85px solid rgb(194, 193, 193);
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+}
+.netflix{
+    padding-left: 210px;
+    margin-top: 30px;
+    font-size: 14px;
+}
